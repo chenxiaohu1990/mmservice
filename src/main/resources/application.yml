@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+  mvc:
+    static-path-pattern: /static/**
+  thymeleaf:
+    cache: false
+
+server:l
+  servlet:
+    session:
+      timeout: 3600s
+    context-path: /
+  error:
+    path: /error
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8083
+mybatis:
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
