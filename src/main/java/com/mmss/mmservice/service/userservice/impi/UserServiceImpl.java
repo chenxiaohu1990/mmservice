@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.Objects;
 
 /**
- * @author 陈小虎1
+ * @author 陈小虎
  * @description UserServiceImpl
  * @since 2022/5/4 17:38
  */
